@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+.nav-container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  background-color: #9376e0;
+}
+.nav-logo {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50%;
+}
+.nav-menu{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50%;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav-menu i {
+  color: white;
+} 
+.nav-pic {
+  width:10%;
+}
+.hive {
+  color: #e893cf;;
+}
+.nav-logo h1 {
+  font-weight: 400;
+}
+.nav-btn{
+  padding: 6px 16px;
+  background-color:#e893cf;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+/* Nav section ends  */
+.header-container {
+  min-height: 300px;
+  margin: 50px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.053);
+  border-radius: 30px;
+ }
+.header-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-photo {
+  width: 50%;
+}
+.header-text h1 {
+  background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-size: 50px;
+}
+.header-text p {
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+}
+.icon {
+  display: flex;
+}
+.icon i {
+  margin-left: 10px;
+  margin-bottom: 10px;
+} 
+.header-btn Button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: 2px solid purple;
+  background-color: transparent;
+}     
+.header-pic img {
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.header-pic {
+  width: 50%;
+}
+
+/* header end  */
+
+.main h1 {
+  width: 100vw;
+  text-align: center;
+}
+
+.store-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 50px;
+  gap: 15px;
+  margin: 0 auto;
+  /* border: 5px solid black; */
+}
+
+.single {
+  height: 350px;
+  width: 250px;
+  border: 2px solid black;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.single img {
+  width: auto;
+  height: 175px;
+  display: flex;
+  justify-self: center;
+  margin: 0 auto;
+  
+}
+
+.textt {
+  text-align: center;
+}
